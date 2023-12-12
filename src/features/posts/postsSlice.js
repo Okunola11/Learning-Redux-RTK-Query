@@ -75,7 +75,7 @@ export const extendedApiSlice = apiSlice.injectEndpoints({
           },
         },
       }),
-      invalidatesTags: [{ type: "post", id: "LIST" }],
+      invalidatesTags: [{ type: "Post", id: "LIST" }],
     }),
     updatePost: builder.mutation({
       query: (initialPost) => ({

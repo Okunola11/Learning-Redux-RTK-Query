@@ -475,10 +475,11 @@
       "body": "ut voluptatum aliquid illo tenetur nemo sequi quo facilis\nipsum rem optio mollitia quas\nvoluptatem eum voluptas qui\nunde omnis voluptatem iure quasi maxime voluptas nam"
     },
     {
-      "userId": 5,
       "id": 41,
-      "title": "non est facere",
-      "body": "molestias id nostrum\nexcepturi molestiae dolore omnis repellendus quaerat saepe\nconsectetur iste quaerat tenetur asperiores accusamus ex ut\nnam quidem est ducimus sunt debitis saepe"
+      "title": "Dwayne",
+      "body": "Agba Baller!",
+      "userId": 5,
+      "date": "2023-12-11T17:21:39.305Z"
     },
     {
       "userId": 5,
@@ -854,6 +855,20 @@
       "body": "check one two three",
       "userId": 2,
       "date": "2022-04-26T23:03:52.299Z"
+    },
+    {
+      "title": "Test Post. ",
+      "body": "Just a trial\n",
+      "userId": 5,
+      "date": "2023-12-11T17:16:18.546Z",
+      "reactions": {
+        "thumbsUp": 3,
+        "wow": 1,
+        "heart": 0,
+        "rocket": 0,
+        "coffee": 0
+      },
+      "id": 103
     }
   ]
 }
