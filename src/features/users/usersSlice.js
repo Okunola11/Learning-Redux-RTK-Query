@@ -10,13 +10,13 @@ const initialState = usersAdapter.getInitialState();
 export const usersApiSlice = apiSlice.injectEndpoints({
   endpoints: (builder) => ({
     getUsers: builder.query({
-      query: () => "/users",
+      query: () => "/user",
       transformResponse: (responseData) => {
         return usersAdapter.setAll(initialState, responseData);
       },
       providesTags: (result, error, arg) => [
         { type: "Users", id: "LIST" },
-        ...result.ids.map((id) => ({ type: "Users", id })),
+        ...result.ids.map((id) => ({ type: "User", id })),
       ],
     }),
   }),
